@@ -15,14 +15,17 @@
 	<div class="navbar-fixed">
 	    <nav class="white z-depth-2 bar-nav">
 		    <div class="nav-wrapper ">
-		      <a href="index.html" class="brand-logo"><img class="responsive-img logo" src="images/logo.png"></a>
+		      <a href="#!" class="brand-logo grey-text lighten-2"><img class="responsive-img logo" src="images/logo.png"></a>
 		      <a href="#" data-activates="mobile-demo" class="button-collapse indigo-text"><i class="material-icons">menu</i></a>
+		       <ul class="left" style="margin-left: 8%; margin-top:1.5%;">
+		      	 <li class="hide-on-small-only grey-text lighten-2 left"><h5>Sumamos nuestra experiencia a tu desarrollo<h5></li>
+		      </ul>
 		      <ul id="nav-mobile" class="right hide-on-med-and-down list-nav">
 		      <li><a href="index.html" class="indigo-text">Inicio</a></li>
 		        <li><a href="servicios.html" class="indigo-text">Servicios</a></li>
 		        <li><a href="noticias.html" class="indigo-text">Noticias</a></li>
 		        <li><a href="integrate.html" class="indigo-text">Intégrate</a></li>		        
-		        <li><a href="#!" class="indigo-text">Contacto</a></li>
+		        <li class="active" style="border-radius: 8px;"><a href="#!" class="indigo-text">Contacto</a></li>
 		      </ul>
 		      <ul class="side-nav" id="mobile-demo">
 		      <li class="logo-mobil center-align indigo-text z-depth-1">Verón Esquivel & Asociados</li>
@@ -30,23 +33,14 @@
 		        <li><a href="servicios.html" class="indigo-text">Servicios</a></li>
 		        <li><a href="noticias.html" class="indigo-text">Noticias</a></li>
 		        <li><a href="integrate.html" class="indigo-text">Intégrate</a></li>
-		        <li><a href="#!" class="indigo-text">Contacto</a></li>
+		        <li class="active" style="border-radius: 8px;"><a href="#!" class="indigo-text">Contacto</a></li>
 		      </ul>
 		    </div>
 		</nav>
 	</div>
 	<div class="container">
 		<div class="row">
-			<div class="col s m l"><p´</p></div>
-			<div class="col s m l"><p>´</p></div>
-		</div>
-	</div>
-
-
-	<div class="container">
-		<div class="row">
-			<div class="col s12 m5 l5"><img src="images/logo.png" class="responsive-img"></div>
-			<div class="col s12 m7 l7 right-align valign-wrapper"><h4 style="font-style: italic;" class=" grey-text lighten-2">Sumamos nuestra experiencia a tu desarrollo</h4></div>
+			<div class="col s m l"><p></p></div>
 		</div>
 	</div>
 	<div class="divider indigo container"></div>
@@ -54,7 +48,7 @@
 	<div class="section white">
 	    <div class="row container">
 	      <h2 class="header indigo-text">Contáctanos</h2>
-	      <p class="grey-text text-darken-3 lighten-3">Contáctanos para más información sobre nuestros productos y servicios:</p>
+	      <p class="grey-text text-darken-3 lighten-3">Contáctanos para más información sobre nuestros productos y servicios.</p>
 	      <div class="row">
 		    <form class="col s12" method="POST">
 		      <div class="row">
