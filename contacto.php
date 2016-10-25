@@ -3,7 +3,7 @@
 <head>
 	<title>Contacto - Verón Esquivel & Asociados</title>
 	<link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/materialize.css"  media="screen,projection"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" type="text/css" href="css/style-naveli.css">
     <link href="images/favicon.png" rel="shortcut icon" type="image/x-icon" />
@@ -11,6 +11,40 @@
     <meta charset="utf-8">
 </head>
 <body>
+	 <div id="servicios" class="dropdown-content">
+     <a href="servicios.html"><h3 class="indigo-text">&nbsp;&nbsp;Servicios</h3></a>
+     <div class="row">
+      <div class="col s12 m3 l3">
+        <h6 class="indigo-text">Auditoría</h6>
+        <div class="divider indigo"></div>
+        <a href="servicios.html#a1"><h6 class="grey-text lighten-1"><span class="indigo-text">|&nbsp;</span>Dictamen de Estados Financieros, IMSS y Contribuyentes Locales</h6></a>
+        <a href="servicios.html#a2"><h6 class="grey-text lighten-1"><span class="indigo-text">|&nbsp;</span>Auditoría a Dependencias Gubernamentales</h6></a>
+        <a href="servicios.html#a3"><h6 class="grey-text lighten-1"><span class="indigo-text">|&nbsp;</span>Auditorías Administrativas o para fines específicos</h6></a>        
+      </div>      
+      <div class="col s12 m3 l3">
+        <h6 class="indigo-text">Contabilidad y Maquila de Nóminas</h6>
+        <div class="divider indigo"></div>
+        <a href="servicios.html#cmn1"><h6 class="grey-text lighten-1"><span class="indigo-text">|&nbsp;</span>Contabilidad General</h6></a>
+        <a href="servicios.html#cmn2"><h6 class="grey-text lighten-1"><span class="indigo-text">|&nbsp;</span>Elaboracion de Nomina</h6></a>        
+      </div>
+      <div class="col s12 m3 l3">
+        <h6 class="indigo-text">Consultoría</h6>        
+        <div class="divider indigo"></div>
+        <a href="servicios.html#c1"><h6 class="grey-text lighten-1"><span class="indigo-text">|&nbsp;</span>Reestructuras, fusiones, escisiones y adquisición de Sociedades Mercantiles</h6></a>
+        <a href="servicios.html#c2"><h6 class="grey-text lighten-1"><span class="indigo-text">|&nbsp;</span>Valuación de compañías y proyectos de inversión</h6></a>
+        <a href="servicios.html#c3"><h6 class="grey-text lighten-1"><span class="indigo-text">|&nbsp;</span>Levantamiento de Inventarios</h6></a>
+        <a href="servicios.html#c4"><h6 class="grey-text lighten-1"><span class="indigo-text">|&nbsp;</span>Precios de Transferencia</h6></a>
+        <a href="servicios.html#c5"><h6 class="grey-text lighten-1"><span class="indigo-text">|&nbsp;</span>Peritajes Contables</h6></a>
+        <a href="servicios.html#c6"><h6 class="grey-text lighten-1"><span class="indigo-text">|&nbsp;</span>Manuales Gubernamentales y de Empresa</h6></a>        
+      </div>
+      <div class="col s12 m3 l3">
+        <h6 class="indigo-text">Prevención Anti Lavado de Dinero</h6>
+        <div class="divider indigo"></div>
+        <a href="servicios.html#lav1"><h6 class="grey-text lighten-1"><span class="indigo-text">|&nbsp;</span>Auditoría en ateria de Lavado de Dinero</h6></a>
+        <a href="servicios.html#lav2"><h6 class="grey-text lighten-1"><span class="indigo-text">|&nbsp;</span>Implementación de controles en materia de Lavado de Dinero</h6></a>        
+      </div>
+     </div>
+  </div>
 
 	<div class="navbar-fixed">
 	    <nav class="white z-depth-2 bar-nav">
@@ -22,7 +56,7 @@
 		      </ul>
 		      <ul id="nav-mobile" class="right hide-on-med-and-down list-nav">
 		      <li><a href="index.html" class="indigo-text">Inicio</a></li>
-		        <li><a href="servicios.html" class="indigo-text">Servicios</a></li>
+		        <li><a href="#!" data-activates="servicios" class="dropdown-button indigo-text">Servicios</a></li>
 		        <li><a href="noticias.html" class="indigo-text">Noticias</a></li>
 		        <li><a href="integrate.html" class="indigo-text">Intégrate</a></li>		        
 		        <li class="active" style="border-radius: 8px;"><a href="#!" class="indigo-text">Contacto</a></li>
@@ -30,7 +64,7 @@
 		      <ul class="side-nav" id="mobile-demo">
 		      <li class="logo-mobil center-align indigo-text z-depth-1">Verón Esquivel & Asociados</li>
 		      <li><a href="index.html" class="indigo-text">Inicio</a></li>
-		        <li><a href="servicios.html" class="indigo-text">Servicios</a></li>
+		        <li><a href="mservicios.html" class="indigo-text">Servicios</a></li>
 		        <li><a href="noticias.html" class="indigo-text">Noticias</a></li>
 		        <li><a href="integrate.html" class="indigo-text">Intégrate</a></li>
 		        <li class="active" style="border-radius: 8px;"><a href="#!" class="indigo-text">Contacto</a></li>
@@ -109,7 +143,7 @@
 		$bool = mail("info@veronesquivel.com.mx",$_POST['subject'],$msj, $headers);
 
 		if($bool){
-				echo "<div class=\"center-align\"><h4 class=\"green-text lighten-1\">Su correo se fue enviado existosamente</h4></div>";
+				echo "<div class=\"center-align\"><h4 class=\"green-text lighten-1\">Su correo fue enviado existosamente</h4></div>";
 			}else{
 				echo "<div class=\"center-align\"><h4 class=\"red-text lighten-1\">Hubo un error al enviar el correo. Intenta de nuevo.</h4></div>";
 			}
@@ -155,13 +189,9 @@
             </div>
           </div>
         </footer>
-	
-
-
-
 
 	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/materialize.js"></script>
     <script type="text/javascript" src="js/js-naveli.js"></script>
 
 </body>
