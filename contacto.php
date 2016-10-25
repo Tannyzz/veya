@@ -83,6 +83,33 @@
 	    <div class="row container">
 	      <h2 class="header indigo-text">Contáctanos</h2>
 	      <p class="grey-text text-darken-3 lighten-3">Contáctanos para más información sobre nuestros productos y servicios.</p>
+	      <?php 
+	if(isset($_POST['send'])){
+
+		$msj = "<img src=\"https://tannyzz.github.io/veya/images/logo.png\"><br><br>".
+				"<h1 style=\"color: #3f51b5;\">CONTACTO</h1>".
+				"<h3 style=\"color: #3f51b5;\">Correo proveniente del sitio web</h3><br>".
+				"*NOMBRE: <b>".$_POST['name']."</b><br><br>".
+				"*TELÉFONO: <b>".$_POST['tel']."</b><br><br>".
+				"*EMAIL DEL INTERESADO: <b>".$_POST['mail']."</b><br><br>".
+				"*ASUNTO: <b>".$_POST['subject']."</b><br><br>".
+				"*COMENTARIOS: <b>".$_POST['coment']."</b>";
+
+		$headers .= "MIME-Version: 1.0\r\n"; 
+		$headers .= "Content-type: text/html; charset=iso-8859-1\r\n"; 
+		$headers .= "From: Contacto VE&A Sitio WEB  <info@veronesquivel.com.mx>\r\n";
+		$headers .= 'Cc: nominas@veronesquivel.com.mx' . "\r\n";		
+		$bool = mail("info@veronesquivel.com.mx",$_POST['subject'],$msj, $headers);
+
+		if($bool){
+				echo "<div class=\"center-align\"><h4 class=\"green-text lighten-1\">Su correo fue enviado existosamente</h4></div>";
+			}else{
+				echo "<div class=\"center-align\"><h4 class=\"red-text lighten-1\">Hubo un error al enviar el correo. Intenta de nuevo.</h4></div>";
+			}
+		
+		
+	}
+ ?>
 	      <div class="row">
 		    <form class="col s12" method="POST">
 		      <div class="row">
@@ -124,33 +151,7 @@
 		  </div>
 	    </div>
 	</div>
-	<?php 
-	if(isset($_POST['send'])){
-
-		$msj = "<img src=\"https://tannyzz.github.io/veya/images/logo.png\"><br><br>".
-				"<h1 style=\"color: #3f51b5;\">CONTACTO</h1>".
-				"<h3 style=\"color: #3f51b5;\">Correo proveniente del sitio web</h3><br>".
-				"*NOMBRE: <b>".$_POST['name']."</b><br><br>".
-				"*TELÉFONO: <b>".$_POST['tel']."</b><br><br>".
-				"*EMAIL DEL INTERESADO: <b>".$_POST['mail']."</b><br><br>".
-				"*ASUNTO: <b>".$_POST['subject']."</b><br><br>".
-				"*COMENTARIOS: <b>".$_POST['coment']."</b>";
-
-		$headers .= "MIME-Version: 1.0\r\n"; 
-		$headers .= "Content-type: text/html; charset=iso-8859-1\r\n"; 
-		$headers .= "From: Contacto VE&A Sitio WEB  <info@veronesquivel.com.mx>\r\n";
-		$headers .= 'Cc: nominas@veronesquivel.com.mx' . "\r\n";		
-		$bool = mail("info@veronesquivel.com.mx",$_POST['subject'],$msj, $headers);
-
-		if($bool){
-				echo "<div class=\"center-align\"><h4 class=\"green-text lighten-1\">Su correo fue enviado existosamente</h4></div>";
-			}else{
-				echo "<div class=\"center-align\"><h4 class=\"red-text lighten-1\">Hubo un error al enviar el correo. Intenta de nuevo.</h4></div>";
-			}
-		
-		
-	}
- ?>
+	
 
 	<footer class="page-footer grey lighten-4">
           <div class="container">
