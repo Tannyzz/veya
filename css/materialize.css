@@ -2833,7 +2833,7 @@ video.responsive-video {
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 500px;
+  height: 300px;
 }
 
 .parallax {
@@ -5105,7 +5105,7 @@ button.btn-floating {
   background-color: #fff;
   margin: 0;
   display: none;
-  min-width: 100px;
+  min-width: 1000px;
   max-height: 650px;
   overflow-y: auto;
   opacity: 0;
