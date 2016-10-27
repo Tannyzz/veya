@@ -81,8 +81,8 @@
 
 	<div class="section white">
 	    <div class="row container">
-	      <h2 class="header indigo-text">Contáctanos</h2>
-	      <p class="grey-text text-darken-3 lighten-3">Contáctanos para más información sobre nuestros productos y servicios.</p>
+	      <h3 class="header indigo-text">Contáctanos</h3>
+	      <p class="flow-text grey-text text-darken-3 lighten-3">Contáctanos para más información sobre nuestros productos y servicios o solicitar cotización.</p>
 	      <?php 
 	if(isset($_POST['send'])){
 
@@ -93,7 +93,7 @@
 				"*TELÉFONO: <b>".$_POST['tel']."</b><br><br>".
 				"*EMAIL DEL INTERESADO: <b>".$_POST['mail']."</b><br><br>".
 				"*ASUNTO: <b>".$_POST['subject']."</b><br><br>".
-				"*COMENTARIOS: <b>".$_POST['coment']."</b>";
+				"*COMENTARIOS: <b>".$_POST['coment']."</b>";	
 
 		$headers .= "MIME-Version: 1.0\r\n"; 
 		$headers .= "Content-type: text/html; charset=iso-8859-1\r\n"; 
@@ -116,31 +116,31 @@
 		        <div class="input-field col s12 m6 l6">
 		          <i class="material-icons prefix indigo-text">account_circle</i>
 		          <input required id="icon_prefix" name="name" type="text" class="validate">
-		          <label for="icon_prefix">Nombre completo</label>
+		          <label style="font-size: 20px;" for="icon_prefix">Nombre completo</label>
 		        </div>
 		        <div class="input-field col s12 m6 l6">
 		          <i class="material-icons prefix indigo-text">phone</i>
 		          <input required id="icon_telephone" name="tel" type="tel" class="validate">
-		          <label for="icon_telephone">Teléfono</label>
+		          <label style="font-size: 20px;" for="icon_telephone">Teléfono</label>
 		        </div>
 		      </div>
 		      <div class="row">
 				<div class="input-field col s12 m6 l6">
 				<i class="material-icons prefix indigo-text">email</i>
 		          <input required id="email" name="mail" type="email" class="validate">
-		          <label for="email">Email</label>
+		          <label style="font-size: 20px;" for="email">Email</label>
 		        </div>
 		        <div class="input-field col s12 m6 l6">
 		          <i class="material-icons prefix indigo-text">subject</i>
 		          <input required id="icon_prefix" name="subject" type="text" class="validate">
-		          <label for="icon_prefix">Asunto</label>
+		          <label style="font-size: 20px;" for="icon_prefix">Asunto</label>
 		        </div>
 		        </div>
 		        <div class="row">
 		        	<div class="input-field col s12">
 		        	<i class="material-icons prefix indigo-text">mode_edit</i>
 			          <textarea required id="textarea1" name="coment" class="materialize-textarea"></textarea>
-			          <label for="textarea1">Comentarios</label>
+			          <label style="font-size: 20px;" for="textarea1">Comentarios</label>
 			        </div>
 		        </div>
 		        <div class="right-align">
