@@ -17,7 +17,7 @@
       <div class="col s12 m3 l3">
         <h6 class="indigo-text">Auditoría</h6>
         <div class="divider indigo"></div>
-        <a href="servicios.html#a1"><h6 class="grey-text lighten-1"><span class="indigo-text">|&nbsp;</span>Dictamen de Estados Financieros, IMSS y Contribuyentes Locales</h6></a>
+        <a href="servicios.html#a1"><h6 class="grey-text lighten-1"><span class="indigo-text">|&nbsp;</span>Dictamen de Estados Financieros, IMSS y Contribuciones Locales</h6></a>
         <a href="servicios.html#a2"><h6 class="grey-text lighten-1"><span class="indigo-text">|&nbsp;</span>Auditoría a Dependencias Gubernamentales</h6></a>
         <a href="servicios.html#a3"><h6 class="grey-text lighten-1"><span class="indigo-text">|&nbsp;</span>Auditorías Administrativas o para fines específicos</h6></a>        
       </div>      
@@ -25,7 +25,7 @@
         <h6 class="indigo-text">Contabilidad y Maquila de Nóminas</h6>
         <div class="divider indigo"></div>
         <a href="servicios.html#cmn1"><h6 class="grey-text lighten-1"><span class="indigo-text">|&nbsp;</span>Contabilidad General</h6></a>
-        <a href="servicios.html#cmn2"><h6 class="grey-text lighten-1"><span class="indigo-text">|&nbsp;</span>Elaboracion de Nomina</h6></a>        
+        <a href="servicios.html#cmn2"><h6 class="grey-text lighten-1"><span class="indigo-text">|&nbsp;</span>Elaboración de Nómina</h6></a>        
       </div>
       <div class="col s12 m3 l3">
         <h6 class="indigo-text">Consultoría</h6>        
@@ -40,7 +40,7 @@
       <div class="col s12 m3 l3">
         <h6 class="indigo-text">Prevención Anti Lavado de Dinero</h6>
         <div class="divider indigo"></div>
-        <a href="servicios.html#lav1"><h6 class="grey-text lighten-1"><span class="indigo-text">|&nbsp;</span>Auditoría en ateria de Lavado de Dinero</h6></a>
+        <a href="servicios.html#lav1"><h6 class="grey-text lighten-1"><span class="indigo-text">|&nbsp;</span>Auditoría en materia de Lavado de Dinero</h6></a>
         <a href="servicios.html#lav2"><h6 class="grey-text lighten-1"><span class="indigo-text">|&nbsp;</span>Implementación de controles en materia de Lavado de Dinero</h6></a>        
       </div>
      </div>
@@ -170,7 +170,7 @@
                   <li class="grey-text darken-5"><i class="material-icons">phone</i>&nbsp;&nbsp;53676647</li>
                   <li class="grey-text darken-5"><i class="material-icons">phone</i>&nbsp;&nbsp;53690265</li><br>
                    <h6 class="indigo-text darken-5">Email</h6>
-                  <li class="grey-text darken-5"><i class="material-icons">email</i>&nbsp;&nbsp;nominas@veronesquivel.com.mx</li><br>
+                  <li class="grey-text darken-5"><i class="material-icons">email</i>&nbsp;&nbsp;info@veronesquivel.com.mx</li><br>
                   <li><div class="row">
                   		<div class="col s12">
                   				<a href="https://www.facebook.com/profile.php?id=100010479312399&fref=ts" ><img width="50px" height="50px" src="images/facebook_f.png" class="responsive-img">
